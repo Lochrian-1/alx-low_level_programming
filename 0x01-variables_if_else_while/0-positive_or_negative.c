@@ -8,7 +8,7 @@
  * Description: program will assign a random number to the variable n each time
  * it is executed.
  *
- * Return: Will return 0 when successful
+ * Return: 0 when successful
  */
 
 int main(void)
