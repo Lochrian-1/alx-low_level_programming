@@ -3,8 +3,7 @@
  /**
   * main - prints lowercase letters of the alphabet
   *
-  * Description: prints lowercase letters of the alphabet
-  * in reverse
+  * Description: prints letters of alphabet in reverse
   *
   * Return: 0 when successful
   */
@@ -20,6 +19,7 @@ int main(void)
 		putchar(i);
 		i--;
 	}
+
 	putchar(10);
 
 	return (0);
