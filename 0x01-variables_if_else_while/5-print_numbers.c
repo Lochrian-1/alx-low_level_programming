@@ -3,7 +3,7 @@
 /**
  * main - prints single digit numbers
  *
- * Description: prints single digit numbers of base 10 
+ * Description: prints single digit numbers of base 10
  * starting at 0
  *
  * Return: 0 when successful
