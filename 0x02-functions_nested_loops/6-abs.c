@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _abs(int) - computes absolute value of interger
+ * _abs - computes absolute value of interger
  * @c: c is an ascii character
  *
  * Return: void
