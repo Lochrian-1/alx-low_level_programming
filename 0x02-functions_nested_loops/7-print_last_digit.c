@@ -4,18 +4,18 @@
  * print_last_digit - prints the last digit of a number
  * @n: n is an ascii character
  *
- * Return: 0 when successful
+ * Return: void
  */
 
 int print_last_digit(int n)
 {
-	if (n % 10 == 0)
+	int c = n % 10
+
+	if (n < 0)
 	{
-		return (0);
+		c = (-1) * c;
 	}
-	else
-	{
-		n = n % 10;
-		return (n);
-	}
+	_putchar(c + '0');
+	
+	return (c);
 }
