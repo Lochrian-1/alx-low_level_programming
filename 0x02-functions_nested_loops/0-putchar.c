@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <main.h>
 
 /**
  * main - prints _putchar
@@ -8,6 +7,8 @@
  *
  * Return: 0 when successful
  */
+
+#include 'main.h'
 
 int main(void)
 {
