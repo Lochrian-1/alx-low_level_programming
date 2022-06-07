@@ -8,14 +8,14 @@
  * Return: void
  */
 
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	char lines = 0, letters;
 
-	while(lines <= 9)
+	while (lines <= 9)
 	{
 		letters = 'a';
-		while(letters <= 'z')
+		while (letters <= 'z')
 		{
 			_putchar(letters);
 			letters++;
