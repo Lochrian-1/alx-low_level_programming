@@ -8,7 +8,7 @@
  * Return: 0 when successful
  */
 
-int main(void)
+int main()
 {
 	char text[10] = "_putchar";
 	int i = 0;
