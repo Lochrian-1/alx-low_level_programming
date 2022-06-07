@@ -8,8 +8,10 @@
  * Return: 1 when c is a lowercase and 0 when otherwise
  */
 
-int _islower(int c)
+int _islower(void)
 {
+	int c;
+
 	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
