@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <main.h>
 
 /**
  * main - prints _putchar
@@ -8,7 +9,7 @@
  * Return: 0 when successful
  */
 
-int main()
+int main(void)
 {
 	char text[10] = "_putchar";
 	int i = 0;
