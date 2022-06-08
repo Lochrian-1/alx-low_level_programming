@@ -14,9 +14,9 @@ void times_table(void)
 
 	for (R = 0; R <= 9; R++)
 	{
+		_putchar('0')
 		for (C = 0; C <= 9; C++)
 		{
-			_putchar('0');
 			product = R * C;
 			tens = product / 10;
 			units = product % 10;
