@@ -9,12 +9,10 @@
 
 int main(void)
 {
-	int num1, num2, sum, n;
-
-	num1 = 0;
-	num2 = 1;
-	sum = 0;
-	n = 0;
+	long int num1 = 0;
+	long int num2 = 1;
+	int sum = 0;
+	int n = 0;
 
 	while (n < 49)
 	{
