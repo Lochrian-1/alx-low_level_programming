@@ -11,8 +11,8 @@
 void times_table(void)
 {
 	int R, C, product, tens, units;
-	int R = 0;
-
+	
+	R = 0;
 	while (R <= 9)
 	{
 		C = 0;
