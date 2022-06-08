@@ -15,14 +15,17 @@ int main(void)
 	num2 = 1;
 	sum = 0;
 	n = 0;
+
 	while (n < 49)
 	{
 		sum = num1 + num2;
 		printf("%d, ", sum);
 		num1 = num2;
 		num2 = sum;
+
 		n++;
 	}
+	sum = num1 + num2;
 	printf("%d\n", sum);
 	return (0);
 }
