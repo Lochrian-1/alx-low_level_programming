@@ -17,12 +17,12 @@ int main(void)
 	while (n < 97)
 	{
 		sum = num1 + num2;
-		printf(sum + ", ");
+		printf("%lu, ", sum);
 		num1 = num2;
 		num2 = sum;
 		n++;
 	}
 	sum = num1 + num2;
-	printf(sum + '\n');
+	printf("%lu\n", sum);
 	return (0);
 }
