@@ -14,6 +14,10 @@ void times_table(void)
 
 	for (R = 0; R <= 9; R++)
 	{
+		if(R == 0)
+		{
+			_putchar(0);
+		}
 		for (C = 0; C <= 9; C++)
 		{
 			product = R * C;
