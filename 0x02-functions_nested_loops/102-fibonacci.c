@@ -9,21 +9,21 @@
 
 int main(void)
 {
-	long int num1 = 0;
-	long int num2 = 1;
+	int num1 = 0;
+	int num2 = 1;
 	int sum = 0;
 	int n = 0;
 
 	while (n < 49)
 	{
 		sum = num1 + num2;
-		printf("%li, ", sum);
+		printf("%d, ", sum);
 		num1 = num2;
 		num2 = sum;
 
 		n++;
 	}
 	sum = num1 + num2;
-	printf("%li\n", sum);
+	printf("%d\n", sum);
 	return (0);
 }
