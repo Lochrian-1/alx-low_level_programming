@@ -14,12 +14,9 @@ void times_table(void)
 
 	for (R = 0; R <= 9; R++)
 	{
-		if (R == 0)
-		{
-			_putchar(0);
-		}
 		for (C = 0; C <= 9; C++)
 		{
+			_putchar('0');
 			product = R * C;
 			tens = product / 10;
 			units = product % 10;
@@ -30,17 +27,17 @@ void times_table(void)
 			}
 			else if (product < 10)
 			{
-				_putchar(units + '0');
 				_putchar(',');
 				_putchar(' ');
 				_putchar(' ');
+				_putchar(units + '0');
 			}
 			else
 			{
-				_putchar(tens + '0');
-				_putchar(units + '0');
 				_putchar(',');
 				_putchar(' ');
+				_putchar(units + '0');
+				_putchar(tens + '0');
 			}
 		}
 		_putchar('\n');
