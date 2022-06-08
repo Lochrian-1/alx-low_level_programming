@@ -9,9 +9,9 @@
 
 int main(void)
 {
-	long double int num1 = 0;
-	long double int num2 = 1;
-	long double int sum = 0;
+	long double num1 = 0;
+	long double num2 = 1;
+	long double sum = 0;
 	int n = 0;
 
 	while (n < 97)
