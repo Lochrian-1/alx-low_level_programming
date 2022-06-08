@@ -12,7 +12,7 @@
 void jack_bauer(void)
 {
 	int H, h, M, m, max;
-	
+
 	max = 58;
 	H = 48;
 
@@ -46,7 +46,7 @@ void jack_bauer(void)
 			M = 48;
 			h++;
 		}
-		h =48;
+		h = 48;
 		H++;
 	}
 }
