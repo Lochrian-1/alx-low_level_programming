@@ -11,32 +11,42 @@
 
 void jack_bauer(void)
 {
-	int H = '0';
-	int M = '0';
+	int H, h, M, m, max;
+	
+	max = 58;
+	H = 48;
 
-	while (H <= '23')
+	while (H < 51)
 	{
-		if (H < '10')
+		if (H == 50)
 		{
-			_putchar('0');
-			_putchar(H);
+			max = 52;
 		}
+		h = 48;
 
-		while (M <= '59')
+		while (h < max)
 		{
-			if (M < '10')
+			M = 48;
+			while (M < 54)
 			{
-			_putchar('0');
-			_putchar(M);
+				m = 48;
+				while (m < 58)
+				{
+					_putchar(H);
+					_putchar(h);
+					_putchar(':');
+					_putchar(M);
+					_putchar(m);
+					_putchar('\n');
+					m++;
+				}
+				m = 48;
+				M++;
 			}
-
-			_putchar(H);
-			_putchar(':');
-			_putchar(M);
-			_putchar('\n');
-			M++;
+			M = 48;
+			h++;
 		}
+		h =48;
 		H++;
-		M = '0';
 	}
 }
