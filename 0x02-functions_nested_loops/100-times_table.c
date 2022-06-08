@@ -13,13 +13,11 @@ void print_times_table(int n)
 {
 	int R, C, product;
 
-	R = 0;
 	if (n >= 0 && n <= 15)
 	{
-		while (n >= R)
+		for (R = 0; n >= R; R++)
 		{
-			C = 0;
-			while (n >= C)
+			for (C = 0; n >= C; C++)
 			{
 				product = R * C;
 				if (C == 0)
@@ -50,9 +48,7 @@ void print_times_table(int n)
 					_putchar(((product / 10) % 10) + '0');
 					_putchar((product / 10) + '0');
 				}
-				C++;
 			}
-			R++;
 			_putchar('\n');
 		}
 	}
