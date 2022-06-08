@@ -39,6 +39,6 @@ void times_table(void)
 				_putchar(units + '0');
 			}
 		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
