@@ -18,7 +18,7 @@ void jack_bauer(void)
 	{
 		while (M <= 59)
 		{
-			_putchar("%02d:%02d\n", H, M);
+			return ("H:M\n");
 			M++;
 		}
 		H++;
