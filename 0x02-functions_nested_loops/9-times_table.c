@@ -11,6 +11,7 @@
 void times_table(void)
 {
 	int R, C, product, tens, units;
+
 	R = 0;
 
 	while (R <= 9)
@@ -24,7 +25,7 @@ void times_table(void)
 
 			if (C == 0)
 			{
-				_putchar(0);
+				_putchar('0');
 			}
 			else if (product < 10)
 			{
