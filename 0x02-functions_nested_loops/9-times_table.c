@@ -26,17 +26,17 @@ void times_table(void)
 			}
 			else if (product < 10)
 			{
+				_putchar(units + '0');
 				_putchar(',');
 				_putchar(' ');
 				_putchar(' ');
-				_putchar(units + '0');
 			}
 			else
 			{
+				_putchar(tens + '0');
+				_putchar(units + '0')
 				_putchar(',');
 				_putchar(' ');
-				_putchar(tens + '0');
-				_putchar(units + '0');
 			}
 		}
 		_putchar('\n');
