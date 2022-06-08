@@ -2,7 +2,9 @@
 
 /**
  * add - adds two intergers
- * 
+ * @a: a is an ASCII character
+ * @b: b is an ASCII character
+ *
  * Description: adds two intergers and returns the sum of it
  *
  * Return: result
