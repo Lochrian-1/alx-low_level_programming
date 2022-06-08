@@ -9,9 +9,9 @@
 
 int main(void)
 {
-	unsigned long int num1 = 0;
-	unsigned long int num2 = 1;
-	unsigned long int sum = 0;
+	unsigned long long int num1 = 0;
+	unsigned long long int num2 = 1;
+	unsigned long long int sum = 0;
 	int n = 0;
 
 	while (n < 97)
