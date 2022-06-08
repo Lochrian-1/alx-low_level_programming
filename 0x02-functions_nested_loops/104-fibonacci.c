@@ -14,7 +14,7 @@ int main(void)
 	long int sum = 0;
 	int n = 0;
 
-	while (n < 98)
+	while (n < 97)
 	{
 		sum = num1 + num2;
 		printf("%li, ", sum);
