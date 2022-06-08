@@ -14,7 +14,6 @@ void print_times_table(int n)
 	int R, C, product, hundreds, tens, units;
 
 	R = 0;
-
 	if (n >= 0 && n <= 15)
 	{
 		while (n >= R)
@@ -23,9 +22,6 @@ void print_times_table(int n)
 			while (n >= C)
 			{
 				product = R * C;
-				hundreds = product / 100;
-				tens = product / 10;
-				units = product % 10;
 				if (C == 0)
 				{
 					_putchar('0');
@@ -36,23 +32,23 @@ void print_times_table(int n)
 					_putchar(' ');
 					_putchar(' ');
 					_putchar(' ');
-					_putchar(units + '0');
+					_putchar((product % 10) + '0');
 				}
 				else if (product > 10 && product < 100)
 				{
 					_putchar(',');
 					_putchar(' ');
 					_putchar(' ');
-					_putchar((tens % 10) + '0');
-					_putchar(units + '0');
+					_putchar(((product / 10) % 10) + '0');
+					_putchar((product % 10) + '0');
 				}
 				else
 				{
 					_putchar(',');
 					_putchar(' ');
-					_putchar(hundreds + '0');
-					_putchar((tens % 10) + '0');
-					_putchar(units + '0');
+					_putchar((product / 100) + '0');
+					_putchar(((product / 10) % 10) + '0');
+					_putchar((product / 10) + '0');
 				}
 				C++;
 			}
