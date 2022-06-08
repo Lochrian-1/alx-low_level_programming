@@ -11,12 +11,10 @@
 void times_table(void)
 {
 	int R, C, product, tens, units;
-	
-	R = 0;
-	while (R <= 9)
+
+	while (R + 0, R <= 9, R++)
 	{
-		C = 0;
-		while (C <= 9)
+		while (C = 0, C <= 9, C++)
 		{
 			product = R * C;
 			tens = product / 10;
@@ -40,9 +38,7 @@ void times_table(void)
 				_putchar(tens + '0');
 				_putchar(units + '0');
 			}
-			C++;
 		}
-		R++;
 	}
 	_putchar('\n');
 }
