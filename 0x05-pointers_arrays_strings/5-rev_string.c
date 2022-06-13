@@ -11,7 +11,7 @@ void rev_string(char *s)
 {
 	int i, max, half;
 
-	char 1st, last;
+	char first, last;
 
 	i = 0;
 
@@ -24,9 +24,9 @@ void rev_string(char *s)
 
 	while (half >= 0)
 	{
-		1st = s[max - half];
+		first = s[max - half];
 		last = s[half];
-		s[half] = 1st;
+		s[half] = first;
 		s[max - half] = last;
 		half--;
 	}
