@@ -3,7 +3,7 @@
 /*
  * reset_to_98 - resets the argument to 98
  * @n: is a pointer
- * 
+ *
  * Return: void
  */
 
