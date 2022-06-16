@@ -22,10 +22,7 @@ char *leet(char *str)
 		while (x < 5)
 		{
 			if (str[i] != small[x] && str[i] != big[x])
-				continue;
-			
-			str[i] = num[x];
-			break;
+				str[i] = num[x];
 
 			x++;
 		}
