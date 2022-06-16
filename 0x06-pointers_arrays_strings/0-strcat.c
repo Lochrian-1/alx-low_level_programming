@@ -13,18 +13,18 @@ char *_strcat(char *dest, char *src)
 	int a, b;
 
 	a = 0;
-	b = -1;
+	b = 0;
 
 	while (dest[a] != '\0')
 		a++;
 	
-	do
+	while (src[b] != '\0')
 	{
-		b++;
-		dest[a] = src[b];
+		*(dest + a) = src[b];
 		a++;
+		b++;
 	}
-	while (src[b] != '\0');
+	*(dest + a) != '\0';
 
 	return (dest);
 }
