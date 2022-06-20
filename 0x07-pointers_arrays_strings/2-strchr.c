@@ -12,19 +12,14 @@ char *_strchr(char *s, char c)
 {
 	int x, y;
 
-	x = 0;
 	y = 0;
 
-	while (s[x] != '\0')
+	while (s[y])
 	{
-		while (s[y])
+		if (s[y] == c)
 		{
-			if (s[y] == c)
-			{
-				return (s + y);
-			}
+			return (s + y);
 		}
-		x++;
 	}
 	return (0);
 }
