@@ -2,14 +2,14 @@
 #include <math.h>
 
 /**
- * sqrt - main - check the code
+ * sqrt_x - main - check the code
  * @x: number
  * @y: number of power
  *
  * Return: 0 when succesful.
  */
 
-int sqrt(int x, int y)
+int sqrt_x(int x, int y)
 {
 	if (y * y == x)
 	{
@@ -19,7 +19,7 @@ int sqrt(int x, int y)
 	{
 		return (-1);
 	}
-	return (sqrt(x, y + 1));
+	return (sqrt_x(x, y + 1));
 }
 
 /**
@@ -31,5 +31,5 @@ int sqrt(int x, int y)
 
 int _sqrt_recursion(int n)
 {
-		return (sqrt_a(n, 0));
+		return (sqrt_x(n, 0));
 }
