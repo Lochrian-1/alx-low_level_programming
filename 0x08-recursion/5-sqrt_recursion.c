@@ -1,4 +1,5 @@
 #include "main.h"
+#include <math.h>
 
 /**
  * sqrt - main - check the code
