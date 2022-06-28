@@ -24,7 +24,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		s2 = "";
 	}
-	for (x = 0; s1[x] != '\0'; x++;)
+	for (x = 0; s1[x] != '\0'; x++)
 	{
 		count1 = count1 + 1;
 	}
@@ -38,7 +38,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (NULL);
 	}
-	for (z = 0; s1[k] != '\0'; z++)
+	for (z = 0; s1[z] != '\0'; z++)
 	{
 		m[z] = s1[z];
 	}
