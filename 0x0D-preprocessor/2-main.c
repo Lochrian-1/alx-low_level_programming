@@ -4,7 +4,7 @@
  * main - print the name of the file that was compiled
  *
  * Return: int
- *    */
+ */
 
 int main(void)
 {
