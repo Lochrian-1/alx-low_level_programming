@@ -4,8 +4,8 @@
 int _putchar(char c);
 /**
  * struct dog - best friend of humankind
- * @name: doggo's name
- * @age: doggo's age
+ * @name: dog's name
+ * @age: dog's age
  * @owner: owner's name
  */
 
