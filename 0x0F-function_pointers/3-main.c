@@ -11,7 +11,7 @@
 
 int main(int argc, char *argv[])
 {
-	int x, y, result;
+	int a, b, result;
 	int (*op)(int, int);
 
 	if (argc != 4)
@@ -26,8 +26,8 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(99);
 	}
-	x = atoi(argv[1]);
-	y = atoi(argv[3]);
+	a = atoi(argv[1]);
+	b = atoi(argv[3]);
 	result = op(x, y)
 
 	printf("%d\n", result);
