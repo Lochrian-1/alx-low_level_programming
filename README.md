@@ -1,1 +1,1 @@
-Programming for C
+getting ready for projects
