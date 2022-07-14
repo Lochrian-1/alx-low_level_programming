@@ -1,20 +1,18 @@
-#include "3-calc.h"
-#include "function_pointers.h"
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
+#include "3-calc.h"
 
 /**
- * main - performs simple operations (calculator)
- * @argc: number of arguments
- * @argv: array of arguments
+ * main - main file
+ * @argc: number of lines arguments
+ * @argv: array of elements
  *
  * Return: void
  */
 
 int main(int argc, char *argv[])
 {
-	int a, b, result;
-	int (*op)(int, int);
+	int i;
 
 	if (argc != 4)
 	{
@@ -22,16 +20,8 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 
-	op = get_op_func(argv[2]);
-	if (op == NULL)
-	{
-		printf("Error\n");
-		exit(99);
-	}
-	a = atoi(argv[1]);
-	b = atoi(argv[3]);
-	result = op(a, b)
+	i = (*get_op_func(argv[2]))(atoi(argv[1]), atoi(argv[3]));
+	printf("%d\n", i);
 
-	printf("%d\n", result);
 	return (0);
 }
