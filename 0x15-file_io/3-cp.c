@@ -1,4 +1,11 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <unistd.h>
+#include <stdarg.h>
 
 /**
  * error_messages - Displays the various error messages for different errors
