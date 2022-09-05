@@ -13,6 +13,7 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 	unsigned int i;
 	unsigned int len = len_node(head);
 	src = *head;
+
 	if (*head == NULL)
 		return (-1);
 	if (index == 0)
@@ -54,6 +55,7 @@ unsigned int len_node(dlistint_t **node)
 	unsigned int len = 0;
 	dlistint_t *src;
 	src = *node;
+
 	while (src != NULL)
 	{
 		len += 1;
